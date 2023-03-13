@@ -1,0 +1,80 @@
+.useful {
+    display: block;
+    margin-top: 120px;
+    &-space {
+        padding-top: 60px;
+        padding-right: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    &-item{
+        width: 425px;
+        height: 378px;
+    }
+    &__high {
+        display: flex;
+    }
+    &__text {
+        margin-left: 35px;
+    }
+    &__block   {
+        display: flex;
+    }
+    &__right {
+        display: block;
+    }
+    &__left {
+        display: block;
+        border-right: 1px solid #000;
+        height: 335px;
+        width: 15px;
+    }
+    &__first{
+        margin-top: 42px;
+        display: flex;
+    }
+    &-icon{
+        position: relative;
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+    &__line{
+        margin-top: 18px;
+        display: block;
+        width: 42px;
+        height: 1px;
+        background: #000;
+    }
+    &__img {
+        left: 15px;
+        top: 14px;
+        position: absolute;
+    }
+    &-head {
+        margin-left: 19px;
+        &__title{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &__subtitle {
+            font-weight: 500;
+            font-size: 12px; 
+            line-height: 18px;
+        }
+    }
+    &__descr{
+        margin-top: 12px;
+        font-family: 'Poppins';
+        display: block;;
+        padding-left: 42px;;
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 45px;
+    }
+}

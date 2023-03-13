@@ -1,0 +1,83 @@
+// $common-color
+
+
+
+
+.main {
+    height: 800px;
+    background: url(../img/main/banan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &-social {
+        position: fixed;
+        margin-top: 400px;
+        margin-left: -110px;
+        width: 338px;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: rotate(-90deg);
+        &__line {
+            width: 70px;
+            height: 1px;
+            background: #000;
+        }
+        &__text {
+            font-weight: 700;
+            font-size: 16px;
+            color: #000000
+        }
+        &__icons {
+            width: 90px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__icon {
+            transform: rotate(90deg);
+        }
+    }
+    &-block {
+        padding-top: 206px;
+        &__name {
+            display: flex;
+            text-align: center;    
+        }
+        &__text{
+            position: relative;
+            margin-top: 12px;
+            margin-left: 10px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #000000;
+        }
+        &__title {
+            margin-top: 9px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+        }
+        &__buttons {
+            margin-top: 35px;
+            padding-bottom: 363px;
+        }
+        &__btn {
+            font-weight: 700;
+            font-size: 14px;
+            width: 135px;
+            height: 45px;
+            background: $common-color;
+            box-shadow:0 2px 5px rgba(0,0,0, 0.25) ;
+            }
+        &__about {
+            font-weight: 700;
+            font-size: 14px;
+            margin-left: 44px;
+        }
+        
+    }
+
+}

@@ -1,0 +1,17 @@
+.work {
+    margin-top: 120px;
+    &-block {
+        margin-top: 60px;
+        height: 565px;
+        display: grid;
+        grid-template-columns: 280px  280px 280px 280px;
+        grid-template-rows: 280px 280px;
+        gap: 5px;
+        img {
+            &:hover {
+                filter: contrast(90%)
+            }
+        }
+
+    }
+}

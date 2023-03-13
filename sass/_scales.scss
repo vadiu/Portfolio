@@ -1,0 +1,48 @@
+.scales {
+    margin-top: 140px;
+    &-block {
+        display:grid;
+        grid-template-columns:repeat(3,1fr); 
+        gap: 15px;       
+    }
+    &__item {
+        width: 350px;
+        height: 70px;
+    }
+    &-text{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        display: block;
+        padding-top: 11px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        position: relative;
+        margin-left: 14px;
+    }
+    &__circle{
+        top: 0;
+    }
+    &__counter {
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 11px;
+    }
+    &-lines{
+        margin-top: 27px;
+        width: 350px;
+        height: 14px;
+        border-radius: 4px;
+        background: #E8E4DE;
+    }
+    &__span {
+        height: 14px;
+        border-radius: 4px;
+        background: $common-color;
+        transition: all .5s;
+    }
+}

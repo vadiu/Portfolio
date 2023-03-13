@@ -1,0 +1,35 @@
+.skills {
+    padding-top: 100px;
+    &-cards {
+        padding-left: 8px;
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-card {
+        margin-right: 13px;
+        margin-bottom: 13px;
+        padding: 30px;
+        display: block;
+        height: 270px;
+        width: 270px;
+        border: 1px solid ;
+
+        &__icon{
+            display: table-cell;
+            vertical-align: middle;
+            height: 65px;
+        }
+    }
+    &-title {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    &-descr {
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
